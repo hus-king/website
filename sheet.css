@@ -1,0 +1,99 @@
+.header-bar {
+    background-color: black; /* 设置背景颜色为黑色 */
+    color: white; /* 设置文字颜色为白色 */
+    background-size: cover
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: left; /* 设置文字左对齐 */
+    font-size: 16px;
+    font-family: '华文中宋', sans-serif;
+}
+.background1 {
+    background-image: url('image3.jpg');
+    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 600px;
+    display: inline-block;
+}
+.background2 {
+    background-image: url('image2.jpg');
+    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 600px;
+    display: inline-block;
+}
+.text0 {
+    color: #b9e6e9;;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: bolder;
+    
+}
+.text1 {
+    color: #ffffffee;;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+}
+.text2 {
+    color: #ffffffee;;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 260px;
+    font-weight: bolder;
+    font-family: '华文中宋', sans-serif;
+}
+.text3 {
+    color: #ffffffee;;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 4vw;
+    margin-right: 60vw;
+    font-family: '华文中宋', sans-serif;
+    line-height: 30px;
+}
+.text4 {
+    color: #ffffffee;;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 4vw;
+    margin-right: 60vw;
+    font-family: 'Times New Roman', sans-serif;
+    line-height: 30px;
+}
+.text5{
+    color: #ffffffee;;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 4vw;
+    font-family: '华文中宋', sans-serif;
+}
+
+}
+.black {
+    background-color: black; /* 设置背景颜色为黑色 */
+    color: white; /* 设置文字颜色为白色 */
+    background-size: cover
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: left; /* 设置文字左对齐 */
+    font-size: 16px;
+    font-family: '华文中宋', sans-serif;
+}
