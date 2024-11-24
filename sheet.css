@@ -129,6 +129,15 @@
     height: 600px;
     display: inline-block;
 }
+.background14 {
+    background-image: url('image/image14.jpg');
+    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 600px;
+    display: inline-block;
+}
 .text0 {
     color: #b9e6e9;;
     font-size: 50px;
