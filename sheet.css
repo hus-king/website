@@ -75,6 +75,33 @@
     height: 600px;
     display: inline-block;
 }
+.background8 {
+    background-image: url('image9.jpg');
+    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 600px;
+    display: inline-block;
+}
+.background9 {
+    background-image: url('image10.png');
+    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 200px;
+    display: inline-block;
+}
+.background10 {
+    background-image: url('image11.jpg');
+    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 600px;
+    display: inline-block;
+}
 .text0 {
     color: #b9e6e9;;
     font-size: 50px;
