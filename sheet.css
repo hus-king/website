@@ -130,7 +130,7 @@
     display: inline-block;
 }
 .background14 {
-    background-image: url('image/image14.jpg');
+    background-image: url('image/image15.jpg');
     background-size: cover; /* 完全覆盖，可能会裁剪图片 */
     background-repeat: no-repeat;
     background-position: center;
@@ -188,6 +188,15 @@
     text-align: left;
     margin-left: 4vw;
     font-family: '华文中宋', sans-serif;
+}
+.text6 {
+    color: #ffffffee;;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 4vw;
+    margin-right: 60vw;
+    font-family: '华文中宋', 'Times New Roman';
+    line-height: 30px;
 }
 .black {
     background-color: black; /* 设置背景颜色为黑色 */
