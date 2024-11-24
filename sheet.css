@@ -13,7 +13,7 @@
     font-family: '华文中宋', sans-serif;
 }
 .background1 {
-    background-image: url('image3.jpg');
+    background-image: url('image/image1.jpg');
     background-size: cover; /* 完全覆盖，可能会裁剪图片 */
     background-repeat: no-repeat;
     background-position: center;
@@ -22,7 +22,7 @@
     display: inline-block;
 }
 .background2 {
-    background-image: url('image2.jpg');
+    background-image: url('image/image2.jpg');
     background-size: cover; /* 完全覆盖，可能会裁剪图片 */
     background-repeat: no-repeat;
     background-position: center;
@@ -31,7 +31,7 @@
     display: inline-block;
 }
 .background3 {
-    background-image: url('image4.png');
+    background-image: url('image/image4.png');
     background-size: cover; /* 完全覆盖，可能会裁剪图片 */
     background-repeat: no-repeat;
     background-position: center;
@@ -40,7 +40,7 @@
     display: inline-block;
 }
 .background4 {
-    background-image: url('image5.jpg');
+    background-image: url('image/image5.jpg');
     background-size: cover; /* 完全覆盖，可能会裁剪图片 */
     background-repeat: no-repeat;
     background-position: center;
@@ -49,7 +49,7 @@
     display: inline-block;
 }
 .background5 {
-    background-image: url('image6.png');
+    background-image: url('image/image6.png');
     background-size: cover; /* 完全覆盖，可能会裁剪图片 */
     background-repeat: no-repeat;
     background-position: center;
@@ -58,7 +58,7 @@
     display: inline-block;
 }
 .background6 {
-    background-image: url('image7.png');
+    background-image: url('image/image7.png');
     background-size: cover; /* 完全覆盖，可能会裁剪图片 */
     background-repeat: no-repeat;
     background-position: center;
@@ -67,7 +67,7 @@
     display: inline-block;
 }
 .background7 {
-    background-image: url('image8.jpg');
+    background-image: url('image/image8.jpg');
     background-size: cover; /* 完全覆盖，可能会裁剪图片 */
     background-repeat: no-repeat;
     background-position: center;
@@ -76,7 +76,7 @@
     display: inline-block;
 }
 .background8 {
-    background-image: url('image9.jpg');
+    background-image: url('image/image9.jpg');
     background-size: cover; /* 完全覆盖，可能会裁剪图片 */
     background-repeat: no-repeat;
     background-position: center;
@@ -85,7 +85,7 @@
     display: inline-block;
 }
 .background9 {
-    background-image: url('image10.png');
+    background-image: url('image/image10.png');
     background-size: cover; /* 完全覆盖，可能会裁剪图片 */
     background-repeat: no-repeat;
     background-position: center;
@@ -94,7 +94,7 @@
     display: inline-block;
 }
 .background10 {
-    background-image: url('image11.jpg');
+    background-image: url('image/image11.jpg');
     background-size: cover; /* 完全覆盖，可能会裁剪图片 */
     background-repeat: no-repeat;
     background-position: center;
@@ -103,7 +103,7 @@
     display: inline-block;
 }
 .background11 {
-    background-image: url('image12.webp');
+    background-image: url('image/image12.webp');
     background-size: cover; /* 完全覆盖，可能会裁剪图片 */
     background-repeat: no-repeat;
     background-position: center;
@@ -112,7 +112,16 @@
     display: inline-block;
 }
 .background12 {
-    background-image: url('image13.png');
+    background-image: url('image/image13.png');
+    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 600px;
+    display: inline-block;
+}
+.background13 {
+    background-image: url('image/image3.jpg');
     background-size: cover; /* 完全覆盖，可能会裁剪图片 */
     background-repeat: no-repeat;
     background-position: center;
