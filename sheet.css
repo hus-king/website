@@ -198,6 +198,15 @@
     font-family: '华文中宋', 'Times New Roman';
     line-height: 30px;
 }
+.text7 {
+    color: #ffffffee;;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 4vw;
+    margin-right: 60vw;
+    font-family: '华文中宋', sans-serif;
+    line-height: 30px;
+}
 .black {
     background-color: black; /* 设置背景颜色为黑色 */
     color: white; /* 设置文字颜色为白色 */
