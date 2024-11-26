@@ -1,7 +1,15 @@
+body {
+    flex-direction: column;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* 设置背景颜色为黑色 */
+}
+
 .header-bar {
     background-color: black; /* 设置背景颜色为黑色 */
     color: white; /* 设置文字颜色为白色 */
-    background-size: cover
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100vw;
@@ -12,142 +20,42 @@
     font-size: 16px;
     font-family: '华文中宋', sans-serif;
 }
-.background1 {
-    background-image: url('image/image1.jpg');
+
+.background1, .background2, .background3, .background4, .background5, .background6, .background7, .background8, .background9, .background10, .background11, .background12, .background13, .background14 {
     background-size: cover; /* 完全覆盖，可能会裁剪图片 */
     background-repeat: no-repeat;
     background-position: center;
     width: 100vw;
-    height: 600px;
     display: inline-block;
+    margin: 0; /* 确保没有外边距 */
+    padding: 0; /* 确保没有内边距 */
 }
-.background2 {
-    background-image: url('image/image2.jpg');
-    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 600px;
-    display: inline-block;
-}
-.background3 {
-    background-image: url('image/image4.png');
-    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 200px;
-    display: inline-block;
-}
-.background4 {
-    background-image: url('image/image5.jpg');
-    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 600px;
-    display: inline-block;
-}
-.background5 {
-    background-image: url('image/image6.png');
-    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 200px;
-    display: inline-block;
-}
-.background6 {
-    background-image: url('image/image7.png');
-    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 600px;
-    display: inline-block;
-}
-.background7 {
-    background-image: url('image/image8.jpg');
-    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 600px;
-    display: inline-block;
-}
-.background8 {
-    background-image: url('image/image9.jpg');
-    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 600px;
-    display: inline-block;
-}
-.background9 {
-    background-image: url('image/image10.png');
-    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 200px;
-    display: inline-block;
-}
-.background10 {
-    background-image: url('image/image11.jpg');
-    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 600px;
-    display: inline-block;
-}
-.background11 {
-    background-image: url('image/image12.webp');
-    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 600px;
-    display: inline-block;
-}
-.background12 {
-    background-image: url('image/image13.png');
-    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 600px;
-    display: inline-block;
-}
-.background13 {
-    background-image: url('image/image3.jpg');
-    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 600px;
-    display: inline-block;
-}
-.background14 {
-    background-image: url('image/image15.jpg');
-    background-size: cover; /* 完全覆盖，可能会裁剪图片 */
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 600px;
-    display: inline-block;
-}
+
+.background1 { height: 600px; background-image: url('image/image1.jpg'); }
+.background2 { height: 600px; background-image: url('image/image2.jpg'); }
+.background3 { height: 200px; background-image: url('image/image4.png'); }
+.background4 { height: 600px; background-image: url('image/image5.jpg'); }
+.background5 { height: 200px; background-image: url('image/image6.png'); }
+.background6 { height: 600px; background-image: url('image/image7.png'); }
+.background7 { height: 600px; background-image: url('image/image8.jpg'); }
+.background8 { height: 600px; background-image: url('image/image9.jpg'); }
+.background9 { height: 200px; background-image: url('image/image10.png'); }
+.background10 { height: 600px; background-image: url('image/image11.jpg'); }
+.background11 { height: 600px; background-image: url('image/image12.webp'); }
+.background12 { height: 600px; background-image: url('image/image13.png'); }
+.background13 { height: 600px; background-image: url('image/image3.jpg'); }
+.background14 { height: 600px; background-image: url('image/image15.jpg'); }
+
 .text0 {
-    color: #b9e6e9;;
+    color: #b9e6e9;
     font-size: 50px;
     text-align: center;
     font-family: 'Times New Roman', sans-serif;
     font-weight: bolder;
-    
 }
+
 .text1 {
-    color: #ffffffee;;
+    color: #ffffffee;
     font-size: 20px;
     text-align: center;
     text-shadow: 
@@ -156,16 +64,18 @@
                 -1px 1px 0 #000,
                 1px 1px 0 #000;
 }
+
 .text2 {
-    color: #ffffffee;;
+    color: #ffffffee;
     font-size: 40px;
     text-align: left;
     margin-left: 260px;
     font-weight: bolder;
     font-family: '华文中宋', sans-serif;
 }
+
 .text3 {
-    color: #ffffffee;;
+    color: #ffffffee;
     font-size: 16px;
     text-align: left;
     margin-left: 4vw;
@@ -173,8 +83,9 @@
     font-family: '华文中宋', sans-serif;
     line-height: 30px;
 }
+
 .text4 {
-    color: #ffffffee;;
+    color: #ffffffee;
     font-size: 30px;
     text-align: left;
     margin-left: 4vw;
@@ -182,15 +93,17 @@
     font-family: 'Times New Roman', sans-serif;
     line-height: 30px;
 }
-.text5{
-    color: #ffffffee;;
+
+.text5 {
+    color: #ffffffee;
     font-size: 20px;
     text-align: left;
     margin-left: 4vw;
     font-family: '华文中宋', sans-serif;
 }
+
 .text6 {
-    color: #ffffffee;;
+    color: #ffffffee;
     font-size: 30px;
     text-align: left;
     margin-left: 4vw;
@@ -198,8 +111,9 @@
     font-family: '华文中宋', 'Times New Roman';
     line-height: 30px;
 }
+
 .text7 {
-    color: #ffffffee;;
+    color: #ffffffee;
     font-size: 25px;
     text-align: left;
     margin-left: 4vw;
@@ -207,10 +121,11 @@
     font-family: '华文中宋', sans-serif;
     line-height: 30px;
 }
+
 .black {
     background-color: black; /* 设置背景颜色为黑色 */
     color: white; /* 设置文字颜色为白色 */
-    background-size: cover
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100vw;
@@ -222,99 +137,142 @@
     font-family: '华文中宋', sans-serif;
 }
 
-a{
+.navbar {
+    width: 100vw;
+    background-color: #111;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px; /* 调整此处的 padding 缩窄导航栏高度 */
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.content {
+    padding: 0px;
+    margin-top: 50px; /* 确保内容不被固定的导航栏遮挡 */
+}
+
+.aa {
     position: relative;
     display: inline-block;
     padding: 25px 30px;
     margin: 40px 0;
     color: #03e9f4;
-  font-size: 25px;
+    font-size: 25px;
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
     letter-spacing: 4px;
     overflow: hidden;
     margin-left: 50px;
-   
 }
 
-a span{
+.aa span {
     position: absolute;
     display: block;
 }
-a span:nth-child(1){
+
+.aa span:nth-child(1) {
     top: 0;
     left: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg,transparent,#03e9f4);
+    background: linear-gradient(90deg, transparent, #03e9f4);
     animation: animate1 1s linear infinite;
 }
-@keyframes animate1{
-    0%{
+
+@keyframes animate1 {
+    0% {
         left: -100%;
     }
-    50%,100%{
+    50%, 100% {
         left: 100%;
     }
 }
-a span:nth-child(2){
+
+.aa span:nth-child(2) {
     top: -100%;
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg,transparent,#03e9f4);
+    background: linear-gradient(180deg, transparent, #03e9f4);
     animation: animate2 1s linear infinite;
 }
-@keyframes animate2{
-    0%{
+
+@keyframes animate2 {
+    0% {
         top: -100%;
     }
-    50%,100%{
+    50%, 100% {
         top: 100%;
     }
 }
-a span:nth-child(3){
+
+.aa span:nth-child(3) {
     bottom: 0;
     right: 0;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg,transparent,#03e9f4);
+    background: linear-gradient(270deg, transparent, #03e9f4);
     animation: animate3 1s linear infinite;
 }
-@keyframes animate3{
-    0%{
+
+@keyframes animate3 {
+    0% {
         right: -100%;
     }
-    50%,100%{
+    50%, 100% {
         right: 100%;
     }
 }
-a span:nth-child(4){
+
+.aa span:nth-child(4) {
     bottom: -100%;
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg,transparent,#03e9f4);
+    background: linear-gradient(360deg, transparent, #03e9f4);
     animation: animate4 1s linear infinite;
 }
-@keyframes animate4{
-    0%{
+
+@keyframes animate4 {
+    0% {
         bottom: -100%;
     }
-    50%,100%{
+    50%, 100% {
         bottom: 100%;
     }
 }
-  a span:nth-child(1){
-  animation-delay: 0s;
-  }
-  a span:nth-child(2){
-  animation-delay: 0.25s;
-  }
-  a span:nth-child(3){
-  animation-delay: 0.50s;
-  }
-  a span:nth-child(4){
-  animation-delay: 0.75s;
-  }
+
+.aa span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.aa span:nth-child(2) {
+    animation-delay: 0.25s;
+}
+
+.aa span:nth-child(3) {
+    animation-delay: 0.50s;
+}
+
+.aa span:nth-child(4) {
+    animation-delay: 0.75s;
+}
