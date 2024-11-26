@@ -137,32 +137,7 @@ body {
     font-family: '华文中宋', sans-serif;
 }
 
-.navbar {
-    width: 100vw;
-    background-color: #111;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    display: flex;
-    justify-content: center;
-}
 
-.navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 10px 20px; /* 调整此处的 padding 缩窄导航栏高度 */
-    text-decoration: none;
-    font-size: 18px;
-    font-family: "Times New Roman", Times, serif;
-}
-
-.navbar a:hover {
-    background-color: #575757;
-}
 
 .content {
     padding: 0px;
@@ -275,4 +250,48 @@ body {
 
 .aa span:nth-child(4) {
     animation-delay: 0.75s;
+}
+nav {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    width: 100%; /* 使导航栏占据全宽 */
+    position: fixed;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-around; /* 水平分散排列 */
+    width: 80%; /* 调整宽度以控制链接的分布 */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.6s ease;
+    position: relative;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    bottom: -5px;
+    left: 0;
+    transition: width 0.6s ease;
+}
+
+nav a:hover {
+    color: #3ad0e0;
+}
+
+nav a:hover::after {
+    width: 100%;
 }
